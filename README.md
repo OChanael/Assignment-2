@@ -27,6 +27,9 @@ SelectMode.cpp:611:29: error: ‘printMethod’ was not declared in this scope
 SelectMode.cpp:637:25: error: ‘printMethod’ was not declared in this scope
           t.PrintResults(printMethod, generationCount, board, boardLength, boardWidth);
 
+
+(I don't know why it formatted like that, it's fine in Atom)
+
 All attempts to transfer over the PrintResults method (specifically the printMethod variable that
 contained the user's choice of "pause, enter, or file") from the TerminalNavigation class to
 the Modes class was met with failure. As a result, the code does not work and is inoperable.
